@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    font-family: sans-serif;
+    background-color: #e9e9e9;
+}
+
+header, footer{
+    background-color: #372737;
+    color: #e3e9f3
+}
+
+h2, h3, p{
+    color: #372737;
+}
+
+input, textarea{
+    border: none;
+    background-color: #e4d6d3;
+    border-bottom: 2px solid #c0b3b0;
+    width: 33%;
+    height: 12px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.wrap{
+    width: 1170px;
+    margin: 0px auto;
+}
+
+
+
+/* HEADER */
+
+.header_block{
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.about_info{
+    margin-left: 70px;
+}
+
+.about_info h1{
+    font-size: 39px;
+}
+
+.about_info p{
+    font-size: 20px;
+    margin-top: 10px;
+    color: #e3e9f3
+}
+
+.avatar{
+    border-radius: 50%;
+}
+
+
+/* OBJECTIVE and SKILLS */
+
+.simple_text_block{
+    padding: 60px 0;
+}
+
+.text_in_simple_text_block{
+    margin-top: 20px;
+}
+
+
+
+/* EXPERIENCE  */
+
+/* .experience{
+    display: flex;
+    justify-content: space-between;
+
+} */
+
+.experience_block{
+    margin-top: 30px;
+    display: flex;
+}
+
+.experience_years{
+    width: 180px;
+    padding-right: 90px;
+}
+
+.experience_info p{
+    padding-top: 12px;
+}
+
+
+/* LANGUAGE  */
+
+.language_title{
+    margin-bottom: 30px;
+}
+
+.language_item{
+    background: url(img/marker.jpg) no-repeat 0px 4px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    list-style-type: none;
+}
+
+
+/* FORM  */
+
+.form{
+    background-color: #e4d6d3;
+    margin-top: 60px;
+    padding: 30px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form_block{
+    text-align: center;
+}
+
+.double_form_section{
+    display: flex;
+    justify-content: center;
+}
+
+.form_section{
+    margin: 20px;
+}
+
+.form_place{
+    width: 350px;
+}
+
+.form_textarea{
+    width: 750px;
+    
+}
+
+.send_form_btn{
+    margin-top: 20px;
+    background-color: #372737;
+    border: none;
+    width: 150px;
+    height: 50px;
+    color: #e4d6d3;
+}
+
+.send_form_btn:hover{
+    background-color: #422f42;
+}
+
+
+/* CONTACTS  */
+
+.center_title{
+    text-align: center;
+}
+
+.contact_title{
+    color: #e3e9f3
+}
+
+.contacts_list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacts_item{
+    list-style-type: none;
+    margin: 30px;
+}
+
+.contacts_link{
+    color: #e3e9f3;
+}
+
+.rights_text{
+    color: #998b98;
+    font-size: 13px;
+    text-align: center;
+}
+
+footer{
+    padding: 20px 0;
+}
